@@ -1,4 +1,4 @@
-@import url('https: //www.1001fonts.com/metropolis-font.html');
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
 
 * {
   margin: 0px;
@@ -6,9 +6,8 @@
 }
 
 body {
-  font-family: 'metropolis', sans-serif;
+  font-family: 'Metropolis', sans-serif;
 }
-
 
 .context {
   width: 100%;

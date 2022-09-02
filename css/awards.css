@@ -33,11 +33,11 @@
     }
 
     #awards #award-2 .award-img {
-        content: url("../img/awards/price1-01.webp")
+        content: url("../img/awards/price2-min.png")
     }
 
     #awards #award-1 .award-img {
-        content: url("../img/awards/prices2-01.webp")
+        content: url("../img/awards/price1-min.png")
     }
 }
 

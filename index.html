@@ -33,6 +33,22 @@
       .hidebtn {
         display: none !important;
       }
+
+      /* .homeButton {
+        display: flex;
+      } */
+    }
+
+    @media screen and (max-width:900px) {
+
+      .homeButton {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .reegisterbtn {
+        margin-bottom: 4px;
+      }
     }
 
     #myBtn:hover {
@@ -111,13 +127,22 @@
 
       <div class="btns">
       </div>
-      <button type="button" class="btn btn-outline-secondary">
-        <a target="_blank" href="https://forms.gle/s67C9xVf6oKEHQ25A"
-          style="font-size: 24px; font-weight: bold; color: white;">
-          Register Now!
-        </a>
-      </button>
-      <p style="margin-top: 2px;"><small>** Registration are open till the 18th of September 2022 **</small></p>
+      <div class="homeButton">
+        <button type="button" class="btn btn-outline-secondary reegisterbtn">
+          <a target="_blank" href="https://forms.gle/s67C9xVf6oKEHQ25A"
+            style="font-size: 20px; font-weight: bold; color: white;">
+            Register Now!
+          </a>
+        </button>
+        <button type="button" class="btn btn-outline-secondary">
+          <a target="_blank" href="https://forms.gle/5irx8LM7sec8no989"
+            style="font-size: 20px; font-weight: bold; color: white;">
+            Submit Article Here!
+          </a>
+        </button>
+      </div>
+      <p style="margin-top: 2px;font-size: small;"><small>** Registration are open till the 18th of September 2022
+          **</small></p>
     </div>
 
   </section><!-- End Hero -->
